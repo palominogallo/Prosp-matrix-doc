@@ -1,9 +1,7 @@
 # Systematics table
 
-./generateLvsEELossCovMatrix test.root LvsEELossCovMatrix.root 0.01 10000
-
-* [Background Norm](##Background Normalization)
-* [Non-linearity](##Non-linearity)
+* [Background Norm](##Background-Normalization)
+* [Non linearity](##Non-linearity)
 * [](##Cherenkov contribution)
 * [](##Energy Scale)
 * [](##Energy Resolution)
@@ -23,7 +21,7 @@
 * [](##Z fiducial cut)
 * [](##Energy Threshold)
 * [](##Segment to Segment Energy Threshold)
-* [Energy Smearing](##Energy Smearing)
+* [Energy Smearing](##Energy-Smearing)
 
 ## Background Normalization
 The biggest variation from atmospheric pressure variation is 1%. If we conservatively estimate a 100% uncertaintiy on this estimate, there will be a 1% background norm uncertainty. Study by XIangpan shows that there is no variation in sensitivity when 10% is used.
