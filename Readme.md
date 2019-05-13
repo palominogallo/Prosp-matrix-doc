@@ -7,7 +7,7 @@
 | [B2B Energy Loss](cov/EnergyLossB2B.md) | - | 8 KeV | Assume same as the full detector | Non-PG4 toys | ~60 mins |
 | [Baseline uncertainty](cov/BaselineUncertainty.md) | 7932 mm | 100 mm | [DocDB 2229](https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2229) | Non-PG4 toys | |
 | [B2B Energy Resolution](cov/EnergyResolutionB2B.md) | 400 PE/MeV | 8 PE/MeV | [DocDB 2315 v6](https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2315)  | Non-PG4 toys | ~2 mins |
-| [B2B Energy Scale ](Cov/EnergyScaleB2B.md) | 1 | 0.007 | [DocDB 2363](https://docdb.wlab.yale.edu/prospect/docs/0023/002363/002/EScaleUpdate_05_31_18.pdf) | Non-PG4 toys | |
+| [B2B Energy Scale ](cov/EnergyScaleB2B.md) | 1 | 0.007 | [DocDB 2363](https://docdb.wlab.yale.edu/prospect/docs/0023/002363/002/EScaleUpdate_05_31_18.pdf) | Non-PG4 toys | ~ 60 mins |
 
 I will need the [OscSens CovMatrix](https://github.com/PROSPECT-collaboration/OscSens_CovMatrix)
 The input file needed is the output from runOscChain ?
