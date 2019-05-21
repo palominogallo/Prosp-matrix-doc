@@ -39,13 +39,19 @@ export CRYDATA=$CRYHOME/data/
 ```
 
 ### PG4 installation
+The v5.0 is the version for PRD.
+
 ```bash
 git clone https://github.com/PROSPECT-collaboration/PROSPECT-G4
+cd PROSPECT-G4
+git checkout v5.0 
+cd ../
 mkdir PG4
 cd PG4
 cmake ../PROSPECT-G4
 make -j8
 ```
+
 After the installation we need to add the PG4 paths, the new bash_profile will looks like:
 ```
 export APP_DIR=/g/g90/palomino/Work/Prospect/
