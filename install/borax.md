@@ -28,8 +28,8 @@ source /usr/gdata/cern/root_v6.16.00/setup
 source /usr/gdata/cern/geant4.10.04.p01/setup
 ```
 ## PG4
-[PG4 installation](install/borax_pg4.md)
+[PG4 installation](borax_pg4.md)
 
 ## P2X
-[P2X installation](install/borax_p2x.md)
+[P2X installation](borax_p2x.md)
 
