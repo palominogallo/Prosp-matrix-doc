@@ -10,15 +10,15 @@ vim aux/ToyCovExecs/generateLvsEB2BEResCovMatrix.cc
 
 2. Change line 37
 ```c
-double smearMean= 1/sqrt(400) ~ 0.05
+double smearMean= 1/sqrt(325) ~ 0.05
 ```
 
-3. The *sigma* must be = 1/sqrt(408) - 1/sqrt(400) ~ 0.0005
+3. The *sigma* must be = 1/sqrt(350) - 1/sqrt(325) ~ 0.0020
 
 ## Run
 ```bash
 >make generateLvsEB2BEResCovMatrix
->./generateLvsEB2BEResCovMatrix test.root inputs/CovMatrices_jose/SB2BLvsEEResCovMatrix_6.root 0.0005 1000
+>./generateLvsEB2BEResCovMatrix test.root inputs/CovMatrices_jose/SB2BLvsEEResCovMatrix_6.root 0.0020 1000
 
 ```
 
