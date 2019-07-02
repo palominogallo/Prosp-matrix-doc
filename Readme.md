@@ -13,6 +13,7 @@
 | [B2B Energy Scale ](cov/EnergyScaleB2B.md) | 1 | 0.007 | [DocDB 2363](https://docdb.wlab.yale.edu/prospect/docs/0023/002363/002/EScaleUpdate_05_31_18.pdf) | Non-PG4 toys | ~ 90 mins |
 | [Background Scaling](cov/BackgroundScaling.md) | | 0.002 | [DocDB 2377](https://docdb.wlab.yale.edu/prospect/docs/0023/002377/002/bipo-analysis%281%29.pdf) | Non-PG4 toys | ~1 min |
 | [B2B Volume](cov/VolumeB2B.md) | | | | Non-PG4 toys | ~1min |
+| [Non Lin Energy](cov/NonLinearEnergy.md) | | | | PG4 toys | ~ min |
 
 I will need the [OscSens CovMatrix](https://github.com/PROSPECT-collaboration/OscSens_CovMatrix)
 The input file needed is the output from runOscChain ?
