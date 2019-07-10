@@ -39,12 +39,12 @@ export CRYDATA=$CRYHOME/data/
 ```
 
 ### PG4 installation
-The v5.0 is the version for PRD.
+The v5.1 is the version for PRD.
 
 ```bash
 git clone https://github.com/PROSPECT-collaboration/PROSPECT-G4
 cd PROSPECT-G4
-git checkout v5.0 
+git checkout v5.1 
 cd ../
 mkdir PG4
 cd PG4
