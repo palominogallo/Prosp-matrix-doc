@@ -80,5 +80,5 @@ export PG4_BUILD=$APP_DIR/Software_PRD/PG4
 export PG4_BIN=${PG4_BUILD}/bin/PROSPECT-G4
 export LD_LIBRARY_PATH=${PG4_BUILD}/lib:$LD_LIBRARY_PATH
 export PYTHONPATH=$PG4_CODE/mac/:$PYTHONPATH
-
-[README](../Readme.md)```
+```
+[README](../Readme.md)
