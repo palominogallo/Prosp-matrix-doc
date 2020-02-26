@@ -14,6 +14,7 @@ make -C test
 cd test
 ./testMain setup.file > testMain.out
 diff -s testMain.out testMain.ref
+"Files testMain.out and testMain.ref are identical"
 ```
 We need to add information about CRY at bash_profile, before install PG4
 ```
