@@ -55,7 +55,7 @@ git clone https://github.com/PROSPECT-collaboration/PROSPECT2x_Analysis
 mkdir P2x
 cd P2x
 cmake ../PROSPECT2x_Analysis/ -DCMAKE_PREFIX_PATH="/g/g90/palomino/Work/Prospect/Software_PRD/libconfig-1.7.2-install/"
-make
+make -j4
 make install
 ```
 Then my bash_profile will look like:
