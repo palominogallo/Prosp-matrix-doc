@@ -1,4 +1,6 @@
-## ./generateLvsEB2BEResCovMatrix input_ROOT_file output_ROOT_file sigma nToys
+## SB2BERES
+
+*SignalB2BERESCovFile101*
 
 https://docdb.wlab.yale.edu/prospect/docs/0023/002315/006/Energy_Scale_Study_for_PROSPECT_For_Spectrum_Analysis_V3-3.pdf
 page 19.
