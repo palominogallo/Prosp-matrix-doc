@@ -1,6 +1,6 @@
 ## SB2BERES
 
-*SignalB2BERESCovFile101*
+**SignalB2BERESCovFile101**
 
 https://docdb.wlab.yale.edu/prospect/docs/0028/002815/001/main.pdf
 page 22.
