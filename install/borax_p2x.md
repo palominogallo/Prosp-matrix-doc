@@ -52,6 +52,8 @@ export CXXFLAGS="-I$APP_DIR/Software_PRD/libconfig-1.7.2-install/include/ $CXXFL
 
 ```bash
 git clone https://github.com/PROSPECT-collaboration/PROSPECT2x_Analysis
+cd PROSPECT2x_Analysis
+git checkout tags/v22.4 (I did it for 2020 prd paper)
 mkdir P2x
 cd P2x
 cmake ../PROSPECT2x_Analysis/ -DCMAKE_PREFIX_PATH="/g/g90/palomino/Work/Prospect/Software_PRD/libconfig-1.7.2-install/"
