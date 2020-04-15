@@ -1,7 +1,7 @@
 ## SBLSHIFT
 
 Inside src/TExperiment.cc
-uncomment the line with **gen_cov_baseline**, that makes print on screen some information to be saved txt file
+uncomment the line with **gen_cov_baseline**, that prints on screen some information to be saved on txt file
 
 ```bash
 > #define gen_cov_baseline 
