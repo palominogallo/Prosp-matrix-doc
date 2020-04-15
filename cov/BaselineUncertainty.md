@@ -37,12 +37,12 @@ Could be run the scripts like:
 ```
 
 ```bash
-> make generateLvsEBaselineCovMatrix
-> ./generateLvsEBaselineCovMatrix  /p/lustre2/psptexp/user/palomino/OscSens_CovMatrix/rootfiles/  /p/lustre2/psptexp/user/palomino/OscSens_CovMatrix/rootfiles/out.root  SLvsEBaselineCovMatrix.root
+> cp aux/cleanForCovMatBaseline.C
+> root cleanForCovMatBaseline.C
 ```
 
 ```bash
-> cp aux/cleanForCovMatBaseline.C
-> root cleanForCovMatBaseline.C
+> make generateLvsEBaselineCovMatrix
+> ./generateLvsEBaselineCovMatrix  /p/lustre2/psptexp/user/palomino/OscSens_CovMatrix/rootfiles/  /p/lustre2/psptexp/user/palomino/OscSens_CovMatrix/rootfiles/out.root  SLvsEBaselineCovMatrix.root
 ```
 [README](../Readme.md)
