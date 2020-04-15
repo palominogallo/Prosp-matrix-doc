@@ -1,5 +1,11 @@
 ## SBLSHIFT
 
+Inside src/TExperiment.cc
+uncomment the line with **gen_cov_baseline**, that makes print on screen some information to be saved txt file
+
+```bash
+> #define gen_cov_baseline 
+```
 
 An option how to create this cov mat
 ```bash
@@ -12,12 +18,7 @@ An option how to create this cov mat
 > cp ../mac/covmatBaseL.mac mac/.
 > python prepareCovMatBaseline.py
 ```
-Inside src/TExperiment.cc
-uncomment the line with **gen_cov_baseline**, that makes print on screen some information to be saved txt file
 
-```bash
-> #define gen_cov_baseline 
-```
 
 Generate the reference setup file to be used as reference and 1000 files with the origin deviated randomly. It will produce the output *Set.root* and others.
 You can create scripts to run those files as:
