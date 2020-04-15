@@ -1,6 +1,37 @@
+## SBLSHIFT
+
+
+An option how to create this cov mat
 ```bash
->
->
+> cd OscSens_CovMatrix 
+> make
+> make generateSetupFiles
+> mkdir temp
+> mkdir temp/mac
+> cp ../aux/prepareCovMatBaseline.py .
+> cp ../mac/covmatBaseL.mac mac/.
+> python prepareCovMatBaseline.py
+```
+Inside src/TExperiment.cc
+uncomment the line with **gen_cov_baseline**, that makes print on screen some information to be saved txt file
+
+```bash
+> #define gen_cov_baseline 
 ```
 
+Generate the reference setup file to be used as reference and 1000 files with the origin deviated randomly. It will produce the output *Set.root* and others.
+You can create scripts to run those files as:
+
+```bash
+> tail run1.sh
+./generateSetupFiles 2> temp/out
+for i in `seq 0 199`;
+do
+        ./generateSetupFiles temp/mac/default$i.mac 2> temp/out$i
+done
+```
+Could be run the scripts like:
+```bash
+> source run1.sh
+```
 [README](../Readme.md)
