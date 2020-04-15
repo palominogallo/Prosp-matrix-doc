@@ -35,4 +35,14 @@ Could be run the scripts like:
 ```bash
 > source run1.sh
 ```
+
+```bash
+> make generateLvsEBaselineCovMatrix
+> ./generateLvsEBaselineCovMatrix  /p/lustre2/psptexp/user/palomino/OscSens_CovMatrix/rootfiles/  /p/lustre2/psptexp/user/palomino/OscSens_CovMatrix/rootfiles/out.root  SLvsEBaselineCovMatrix.root
+```
+
+```bash
+> cp aux/cleanForCovMatBaseline.C
+> root cleanForCovMatBaseline.C
+```
 [README](../Readme.md)
