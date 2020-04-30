@@ -15,6 +15,7 @@
 | [B2B Volume](cov/VolumeB2B.md) | | | | Non-PG4 toys | ~1min |
 | [Non Lin Energy](cov/NonLinearEnergy.md) | | | | PG4 toys | ~ min |
 | [Baseline uncertainty](cov/BaselineUncertainty.md) | 7932 mm | 100 mm | [DocDB 2229](https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2229) | Non-PG4 toys | maybe |
+| [nC nH peak](cov/EPeakVar.md)| | 3% | |  Non-PG4 toys| |
 
 I will need the [OscSens CovMatrix](https://github.com/PROSPECT-collaboration/OscSens_CovMatrix)
 The input file needed is the output from runOscChain ?
