@@ -5,7 +5,7 @@
 
 | Matrix | Value | Uncertainty | Source | Toy | Process Time |
 | --- | --- | --- | --- | --- | --- |
-| [B2B Energy Scale ](cov/EnergyScaleB2B.md) | 1 | 0.007 | [DocDB 2363](https://docdb.wlab.yale.edu/prospect/docs/0023/002363/002/EScaleUpdate_05_31_18.pdf) | Non-PG4 toys | ~ 90 mins |
+| [B2B Energy Scale ](cov/EnergyScaleB2B.md) | 1 | 0.008 | [DocDB 2363](https://docdb.wlab.yale.edu/prospect/docs/0023/002363/002/EScaleUpdate_05_31_18.pdf) | Non-PG4 toys | ~ 90 mins |
 | [B2B Energy Resolution](cov/EnergyResolutionB2B.md) | 400 PE/MeV | 8 PE/MeV | [DocDB 2815-v1](https://docdb.wlab.yale.edu/prospect/docs/0028/002815/001/main.pdf)  | Non-PG4 toys | ~2 mins |
 | [B2B Energy Loss](cov/EnergyLossB2B.md) | - | 8 KeV | Assume same as the full detector | Non-PG4 toys | ~60 mins |
 | [Energy Loss](cov/EnergyLoss.md) | - | 8 KeV | [DocDB 2503](https://docdb.wlab.yale.edu/prospect/ShowDocument?docid=2503)| Non-PG4 toys | ~1 min |
