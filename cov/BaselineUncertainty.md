@@ -14,6 +14,7 @@ An option how to create this cov mat
 > make generateSetupFiles
 > mkdir temp
 > mkdir temp/mac
+> cd temp
 > cp ../aux/prepareCovMatBaseline.py .
 > cp ../mac/covmatBaseL.mac mac/.
 > python prepareCovMatBaseline.py
