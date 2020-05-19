@@ -18,6 +18,7 @@ An option how to create this cov mat
 > cp ../aux/prepareCovMatBaseline.py .
 > cp ../mac/covmatBaseL.mac mac/.
 > python prepareCovMatBaseline.py
+> cd ..
 ```
 
 
