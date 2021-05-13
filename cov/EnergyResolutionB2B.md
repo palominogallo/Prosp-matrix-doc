@@ -10,12 +10,12 @@ page 22.
 vim aux/ToyCovExecs/generateLvsEB2BEResCovMatrix.cc
 ```
 
-2. Change line 37
+2. Change line 37 into
 ```c
 double smearMean= 1/sqrt(325) ~ 0.05
 ```
 
-3. The *sigma* must be = 1/sqrt(350) - 1/sqrt(325) ~ 0.0020
+3. The *sigma* in the run command must be = 1/sqrt(350) - 1/sqrt(325) ~ 0.0020
 
 ## Run
 ```bash
